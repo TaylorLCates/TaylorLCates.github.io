@@ -9,20 +9,37 @@ We started off with our kihones drill and it was definitely easier to complete t
 
 # Boolean Truth Tables 
 
-| a     | b     | &     | &&    |   |   |  ||   | Xor   |
-|-------|-------|-------|-------|-------|-------|-------|
-| TRUE  | TRUE  | TRUE  | TRUE  | TRUE  | TRUE  | FALSE |
-| FALSE | TRUE  | FALSE | FALSE | TRUE  | TRUE  | TRUE  |
-| TRUE  | FALSE | FALSE | FALSE | TRUE  | TRUE  | TRUE  |
-| FALSE | FALSE | FALSE | FALSE | FALSE | FALSE | FALSE | 
+| a     | b     |AND(bit|  AND  | OR(Bit| OR    |
+|-------|-------|-------|-------|-------|-------|
+| TRUE  | TRUE  | TRUE  | TRUE  | TRUE  | TRUE  |
+| FALSE | TRUE  | FALSE | FALSE | TRUE  | TRUE  |
+| TRUE  | FALSE | FALSE | FALSE | TRUE  | TRUE  |
+| FALSE | FALSE | FALSE | FALSE | FALSE | FALSE |  
 
-|       !       |
-|-------|-------|
+| Xor   | Cpq   | Then  | "="   | Nand  | Nor   |
+|-------|-------|-------|-------|-------|-------|
+| FALSE | TRUE  | TRUE  | TRUE  | FALSE | FALSE |
+| TRUE  | FALSE | FALSE | FALSE | TRUE  | FALSE |
+| TRUE  | FALSE | TRUE  | FALSE | TRUE  | FALSE |
+| FALSE | TRUE  | TRUE  | TRUE  | TRUE  | TRUE  |
+
+| T    | <-    | "->"  | Mpq   | Hpq   |
+|------|-------|-------|-------|-------|
+| TRUE | TRUE  | TRUE  | TRUE  | TRUE  |
+| TRUE | TRUE  | FALSE | FALSE | FALSE |
+| TRUE | FALSE | TRUE  | TRUE  | TRUE  |
+| TRUE | TRUE  | TRUE  | FALSE | FALSE |
+
+Tautology (T) was added above because I got lost in the wikipedia article for thirty minutes reading about it. We also have this little guy "!"
+
+
+|      NOT      |
+|---------------|
 | TRUE  | FALSE |
 | FALSE | TRUE  | 
 
 
 
-I think these are correct. I understand that & and | are bitwise and look at the binary of what the variables are (1 being true, 0 being false) and that they really shine when you start comparing things with more than one digit place in binary. Example would be cmparing 0010 & 0110, only the second digit would show as true. But this subject is, as Tim and Alex were both saying today, very under the hood in regards to what we're being trained to do. Almost all modern languages keep you separated from the binary aspect for the most part, but it's still interesting to learn about. 
+I think these are correct. I understand that AND(bitwise) and OR(bitwise) are bitwise and look at the binary of what the variables are (1 being true, 0 being false) and that they really shine when you start comparing things with more than one digit place in binary. Example would be cmparing 0010 AND(bitwise) 0110, only the second digit would show as true. But this subject is, as Tim and Alex were both saying today, very under the hood in regards to what we're being trained to do. Almost all modern languages keep you separated from the binary aspect for the most part, but it's still interesting to learn about. 
 
 Definitely looking forward to tomorrow!
