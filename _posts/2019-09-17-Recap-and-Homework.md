@@ -7,7 +7,7 @@ Bootcamp today was all over the place! In a good way, mind you.
 
 We started off with our kihones drill and it was definitely easier to complete than yesterday. I think understanding how the unit tests wanted the answers helped a lot. After that, we did our trust huddle with an Improver from the marketing department that Tim snagged (I totally forgot her name, please don't hold it against me! I'll be sure to get it tomorrow!!) After that we did some directed work on our adventure game we're building and then broke for lunch. After lunch we returned for another kihones drill and it's starting to flow for most of us. Then we proceeded to more directed work and then at the end of the day Alex, our co-instructor for this week and on-hand Java expert went over different boolean types. Which brings us to today's homework: 
 
-#Boolean Truth Tables 
+# Boolean Truth Tables 
 
 | a     | b     | &     | &&    |   |   |  ||   | Xor   |
 |-------|-------|-------|-------|-------|-------|-------|
