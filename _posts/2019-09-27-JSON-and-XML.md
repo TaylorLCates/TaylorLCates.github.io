@@ -1,11 +1,19 @@
-Our homework for this weekend was to explore a little bit of JSON and XML. Tim wanted the following info formatted in both ways:
+Our homework for this weekend was to explore a little bit of JSON and XML. Tim wanted the following info formatted in both ways: 
+
 First Name : Tim
+
 Last Name : Rayburn
+
 Address Line 1 : 5445 Legacy Drive
+
 Address Line 2 : Suite 100
+
 City : Plano
+
 State : TX
+
 Zip : 75024 
+
 
 So, after a bit of googling, we have the following in JSON: 
 
