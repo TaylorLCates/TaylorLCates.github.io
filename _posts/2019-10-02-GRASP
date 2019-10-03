@@ -1,0 +1,30 @@
+Today in class we went over GRASP as our afternoon lecture. Our homework was to spread the gospel of GRASP on our blogs for the entire world to see. Prepare yourselves. 
+
+GRASP stands for General Responsibility Assignment Software Patterns(or Principles) and it is a set of guidelines for assigning responsibility to classes and objects in OOP. It consists of the following 9 principles:
+
+# Controller 
+This guy is a master of delegation. It should be responsible for dealing with system events and should be a non-ui or user interface object. So it's kind of like the guy behind the scenes that manages other objects that do all the work. 
+
+# Creator 
+Very similar to the factory pattern. Pretty much says that if a class should be responsible for creating another class if it contains, records, closesly uses, and has all of the initializing information of another class. 
+
+# Indirection 
+This is really a principle that maintains low coupling (We'll see that in a minute.). An example of this is assigning a mediator object between the data and the view in the MVC control pattern. 
+
+# Information Expert 
+Pretty much making sure that a given responsibility for anything is placed upon where the most information utilized in that particular responsibility lies.  
+
+# High Cohesion 
+This pairs with low coupling (Its coming, I promise!). High Cohesion means that responsibilities of objects are highly focused, manageable, and understandable. An example of this is breaking up programs into numerous classes that have very specialized responsibilities. 
+
+#Low Coupling 
+Finally, we're here. Coupling is how strongly one element is connected to, relies on, or has knowledge of other elements. We want low coupling because it enables higher reuse of code and lower dependency between classes. 
+
+# Polymorphism 
+Responsibility for defining the variation of behaviors based on type is assigned to the type for which this variation happens. Pretty much how I understand this is that instead of branching off to deal with a different type, a child class that has the ability to utilize the type should be put in charge. 
+
+# Protected Variations 
+Protecting elements from variation with the use of interfaces. I think that's about as concise a one word sentence as I can make for this idea. 
+
+# Pure Fabrication 
+This is pretty much where a class is created with the ideas of low coupling and high cohesion so its code can easily be reused. 
